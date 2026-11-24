@@ -1,0 +1,21 @@
+{
+  "name": "abc-flash-sale-prototype",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ABC internal marketing Flash Sale event management prototype",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort"
+  },
+  "dependencies": {
+    "lucide-react": "^0.456.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
